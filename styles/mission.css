@@ -96,3 +96,16 @@ main {
     font-weight: 500;
     font-size: 25px;
 }
+
+/* positive banner styles */
+.positive-container {
+    /* background-image:url('../images/banner/banner3.png'); */
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    padding: 60px 64px;
+    margin-bottom: 130px;
+}
+.positive-container .section-title {
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
