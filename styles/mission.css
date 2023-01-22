@@ -99,8 +99,8 @@ main {
 
 /* positive banner styles */
 .positive-container {
-    /* background-image:url('../images/banner/banner3.png'); */
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    background-blend-mode: overlay;
     border-radius: 8px;
     padding: 60px 64px;
     margin-bottom: 130px;
@@ -108,4 +108,52 @@ main {
 .positive-container .section-title {
     color: #FFFFFF;
     margin-bottom: 25px;
+}
+
+/* Footer styles */
+footer {
+    background: #151414;
+    padding: 130px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+footer h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+footer p {
+    color: #FFFFFF;
+}
+.email {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.phone {
+    margin-bottom: 28px;
+}
+.social-icons {
+    font-size: 50px;
+    color: white;
+    margin-right: 16px;
+}
+footer h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+footer form input[type="email"] {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+footer .btn-primary {
+    background: #005FAC;
+    color: #FFFFFF;
 }
