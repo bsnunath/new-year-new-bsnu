@@ -6,12 +6,14 @@
 main {
     padding: 0 150px;
 }
+section {
+    margin-top: 150px;
+}
 
 /* banner styles */
 .banner {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    /* background-position: cover; */
     background-size: 100% 100%;
     padding: 150px 150px;
     display: flex;
@@ -29,6 +31,9 @@ main {
 }
 .banner-title, .banner-description {
     margin-bottom: 24px;
+}
+.banner-description {
+    font-size: 20px;
 }
 
 .btn-primary {
@@ -95,6 +100,32 @@ main {
     color: #737272;
     font-weight: 500;
     font-size: 25px;
+}
+
+/* projects styles */
+.project-area .section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.project-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.project-item h3 {
+    font-size: 30px;
+}
+.project-content img {
+    width: 200px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
 }
 
 /* positive banner styles */
