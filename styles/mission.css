@@ -53,7 +53,7 @@ main {
 .failure-details {
     margin-left: 40px;
 }
-.failure-title {
+.section-title {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -71,4 +71,28 @@ main {
 }
 .failure-lists .fa-check {
     color: #16D887;
+}
+
+/* plans styles */
+.plan-container h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.plan {
+    text-align: center;
+}
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
 }
