@@ -3,6 +3,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+main {
+    padding: 0 150px;
+}
+
 /* banner styles */
 .banner {
     background-image: url('../images/banner/banner3.png');
@@ -35,4 +39,36 @@
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
+}
+
+/* failure styles */
+.failure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.failure-details {
+    margin-left: 40px;
+}
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.failure-description, .failure-lists {
+    color: #444343;
+}
+.failure-description {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.failure-lists li {
+    list-style: none;
+    margin-top: 16px;
+}
+.failure-lists .fa-check {
+    color: #16D887;
 }
